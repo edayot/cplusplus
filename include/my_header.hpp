@@ -54,6 +54,16 @@ void exo4(int v1, int v2, int v3)
 
 }
 
+void exo5(double achat)
+{
+	double remise = 8.0, min = 300.0;
+
+	if (achat > min)
+		achat = achat - achat * 5 / 100;
+	else
+		achat = achat;
+
+}
 
 #endif // MY_HEADER_HPP
 

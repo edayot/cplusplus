@@ -18,6 +18,8 @@ int main()
 	exo3(20);
 	
 	exo4(1, 2, 3);
+	
+	exo5(320);
 
 
     return 0;
