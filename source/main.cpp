@@ -17,6 +17,7 @@ int main()
 
 	exo3(20);
 	
+	exo4(1, 2, 3);
 
 
     return 0;
