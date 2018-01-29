@@ -27,6 +27,15 @@ void exo2(short a, short b)
 }
 
 
+double exo3(double rayon)
+{
+	double aire;
+
+	aire = 4.0 / 3.0 * 3.14 * rayon * rayon * rayon;
+
+
+	return aire;
+}
 
 
 #endif // MY_HEADER_HPP
