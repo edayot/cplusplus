@@ -3,8 +3,13 @@
 
 #ifndef MY_HEADER_HPP
 #define MY_HEADER_HPP
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 #include <cmath>
+
+int essayer_code(unsigned short code);
 
 void exo1(void)
 {
@@ -31,7 +36,24 @@ void exo2(void)
 	else
 		if (n < 0)
 			fac = 0;
-
 }
+
+
+
+
+void exo3(void)
+{
+	int test = 0;
+	unsigned short code = 0;
+	while (test == 0)
+	{
+		code += 1;
+		test = essayer_code(code);
+
+	}
+}
+
+
+
 #endif // MY_HEADER_HPP
 

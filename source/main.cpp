@@ -3,12 +3,16 @@
 
 #include <iostream>
 #include <my_header.hpp>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
 	exo1();
 
 	exo2();
+
+	exo3();
 
     return 0;
 }
