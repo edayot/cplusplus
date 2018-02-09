@@ -6,63 +6,16 @@
 
 #include <cmath>
 
-
-double exo1 ( double rayon )
+void exo1(void)
 {
-	double volume;
+	long a = 2, b = 1, c = 0;
 
-	volume = 4.0 / 3.0 * 3.14 * rayon * rayon * rayon ;
-
-	return volume;
-}
-
-
-
-
-void exo2(short a, short b)
-{
-	short y;
-
-	y = a < b && !a;
-}
-
-
-double exo3(double rayon)
-{
-	double aire;
-
-	aire = 4.0 / 3.0 * 3.14 * rayon * rayon * rayon;
-
-
-	return aire;
-}
-
-void exo4(int v1, int v2, int v3)
-{
-	int vmax ;
-
-	if (v1 > v2)
-		if (v1 > v3)
-			vmax = v1;
-	if (v2 > v1)
-		if (v2 > v3)
-			vmax = v2;
-	if (v3 > v1)
-		if (v3 > v2)
-			vmax = v3;
-
-
-}
-
-void exo5(double achat)
-{
-	double remise = 8.0, min = 300.0;
-
-	if (achat > min)
-		achat = achat - achat * 5 / 100;
-	else
-		achat = achat;
-
+	while (a + b > 0)
+	{
+		a = a - 2;
+		b = b + 1;
+		c = c + 1;
+	}
 }
 
 #endif // MY_HEADER_HPP

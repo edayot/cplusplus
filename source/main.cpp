@@ -6,21 +6,7 @@
 
 int main()
 {
-	double r1;
-
-	r1 = exo1(10.0);
-
-	exo2(5, 10);
-	exo2(0, 10);
-	exo2(20, 10);
-
-
-	exo3(20);
-	
-	exo4(1, 2, 3);
-	
-	exo5(320);
-
+	exo1();
 
     return 0;
 }
