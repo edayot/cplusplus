@@ -55,7 +55,7 @@ void exo4(void)
 {
 	int points = 0;
 	int test = 0;
-	int de = lancer_de(void)
+	int de = lancer_de();
 
 	while (test == 0)
 	{
@@ -115,9 +115,7 @@ void exo4(void)
 		test = 1;
 
 		}
-			char points;
-			sdt
-			test = 1;
+			
 
 	}
 }
