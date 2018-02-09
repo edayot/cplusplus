@@ -10,6 +10,7 @@
 #include <cmath>
 
 int essayer_code(unsigned short code);
+unsigned short lancer_de(void);
 
 void exo1(void)
 {
@@ -39,8 +40,6 @@ void exo2(void)
 }
 
 
-
-
 void exo3(void)
 {
 	int test = 0;
@@ -49,10 +48,79 @@ void exo3(void)
 	{
 		code += 1;
 		test = essayer_code(code);
-
 	}
 }
 
+void exo4(void)
+{
+	int points = 0;
+	int test = 0;
+	int de = lancer_de(void)
+
+	while (test == 0)
+	{
+		if (de = 2)
+		{
+			points = points + 2
+			char points;
+			sdt::cout << "Votre score augmente de 2. Votre nouveau score est de :"
+				<< points
+				<< std::end1;
+
+
+		}
+		if (de = 4)
+		{
+			points = points + 4
+			char points;
+			sdt::cout << "Votre score augmente de 4. Votre nouveau score est de :"
+				<< points
+				<< std::end1;
+
+		}
+		if (de = 6)
+		{
+			points = points + 6
+				char points;
+			sdt::cout << "Votre score augmente de 6. Votre nouveau score est de :"
+				<< points
+				<< std::end1;
+
+		}
+		if (de = 3)
+		{
+			points = points * 2
+				char points;
+			sdt::cout << "Votre score est multiplié par 2. Votre nouveau score est de :"
+				<< points
+				<< std::end1;
+
+		}
+		if (de = 5)
+		{
+			points = 0
+				char points;
+			sdt::cout << "Votre score est remis à zéro. Votre nouveau score est de :"
+				<< points
+				<< std::end1;
+
+		}
+		
+		if (de = 1)
+		{
+		char points;
+		sdt::cout << "Votre score est de :"
+			<< points
+			<< std::end1;
+		test = 1;
+
+		}
+			char points;
+			sdt
+			test = 1;
+
+	}
+}
 
 
 #endif // MY_HEADER_HPP
