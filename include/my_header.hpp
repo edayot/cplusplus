@@ -64,31 +64,31 @@ void exo4(void)
 	{
 		if (de = 2)
 		{
-			points = points + 2
+			points = points + 2;
 			char points;
 			printf("Votre score augmente de 2. Votre nouveau score est de : %d \n", points);
 
 		}
 		if (de = 4)
 		{
-			points = points + 4
+			points = points + 4;
 			printf("Votre score augmente de 4. Votre nouveau score est de : %d \n", points);
 
 		}
 		if (de = 6)
 		{
-			points = points + 6
+			points = points + 6;
 				printf("Votre score augmente de 6. Votre nouveau score est de : %d \n", points);
 
 		}
 		if (de = 3)
 		{
-			points = points * 2
+			points = points * 2;
 				printf("Votre score est multiplié par 2. Votre nouveau score est de : %d \n", points);
 		}
 		if (de = 5)
 		{
-			points = 0
+			points = 0;
 				printf("Votre score est remis à zéro. Votre nouveau score est de : %d \n", points);
 
 		}
@@ -96,7 +96,7 @@ void exo4(void)
 		if (de = 1)
 		{
 			printf("Votre nouveau score est de : %d . La partie est terminé. \n", points);
-		test = 1;
+			test = 1;
 
 		}
 			
@@ -107,9 +107,9 @@ void exo4(void)
 void exo5(void)
 {
 	
-	int tours = 0;
+	int tour = 0;
 	int points_Joueur1 = 0;
-	int points Joueur2 = 0;
+	int points_Joueur2 = 0;
 	int test1 = 0;
 	int test2 = 0;
 	int test = 0;
@@ -123,28 +123,28 @@ void exo5(void)
 			int de = lancer_de();
 			if (de = 2)
 			{
-				points_Joueur1 = points_Joueur1 + 2
+				points_Joueur1 = points_Joueur1 + 2;
 				char points_Joueur1;
 				printf("Votre score augmente de 2. Votre nouveau score est de : %d \n", points_Joueur1);
 			}
 			if (de = 4)
 			{
-				points_Joueur1 = points_Joueur1 + 4
+				points_Joueur1 = points_Joueur1 + 4;
 				printf("Votre score augmente de 4. Votre nouveau score est de : %d \n", points_Joueur1);
 			}
 			if (de = 6)
 			{
-				points_Joueur1 = points_Joueur1 + 6
+				points_Joueur1 = points_Joueur1 + 6;
 					printf("Votre score augmente de 6. Votre nouveau score est de : %d \n", points_Joueur1);
 			}
 			if (de = 3)
 			{
-				points_Joueur1 = points_Joueur1 * 2
+				points_Joueur1 = points_Joueur1 * 2;
 					printf("Votre score est multiplié par 2. Votre nouveau score est de : %d \n", points_Joueur1);
 			}
 			if (de = 5)
 			{
-				points_Joueur1 = 0
+				points_Joueur1 = 0;
 					printf("Votre score est remis à zéro. Votre nouveau score est de : %d \n", points_Joueur1);
 			}
 			if (de = 1)
@@ -163,36 +163,36 @@ void exo5(void)
 			int de = lancer_de();
 			if (de = 2)
 			{
-				points_Joueur2 = points_Joueur2 + 2
+				points_Joueur2 = points_Joueur2 + 2;
 
 				char points_Joueur2;
 				printf("Votre score augmente de 2. Votre nouveau score est de : %d \n", points_Joueur2);
 			}
 			if (de = 4)
 			{
-				points_Joueur2 = points_Joueur2 + 4
+				points_Joueur2 = points_Joueur2 + 4;
 				printf("Votre score augmente de 4. Votre nouveau score est de : %d \n", points_Joueur2);
 			}
 			if (de = 6)
 			{
-				points_Joueur2 = points_Joueur2 + 6
+				points_Joueur2 = points_Joueur2 + 6;
 				printf("Votre score augmente de 6. Votre nouveau score est de : %d \n", points_Joueur2);
 			}
 			if (de = 3)
 			{
-				points_Joueur2 = points_Joueur2 * 2
+				points_Joueur2 = points_Joueur2 * 2;
 				printf("Votre score est multiplié par 2. Votre nouveau score est de : %d \n", points_Joueur2);
 			}
 			if (de = 5)
 			{
-				points_Joueur2 = 0
+				points_Joueur2 = 0;
 				printf("Votre score est remis à zéro. Votre nouveau score est de : %d \n", points_Joueur2);	
 			}	
 			if (de = 1)
 			{
 				printf("Votre nouveau score est de : %d . Son tour est terminé. \n", points_Joueur2);
 				test2 = 1;
-				tour = tour + 1
+				tour = tour + 1;
 				if (points_Joueur2 >= max)
 				{
 					printf("Le Joueur1 a gagner avec : %d points.\n", points_Joueur2);
@@ -201,7 +201,7 @@ void exo5(void)
 			}
 		}
 	}
-	 printf("printf("La partie est terminé.");
+	 printf("La partie est terminé.");
 }	
 
 
