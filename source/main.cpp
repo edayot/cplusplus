@@ -1,5 +1,5 @@
 //  Copyright (c) 2018 Antoine Tran Tan
-//  Copyright (c) 2018 Erwan DAYOT , Max LYS
+//  Copyright (c) 2018 Erwan DAYOT 
 
 #include <iostream>
 #include <my_header.hpp>
@@ -14,7 +14,8 @@ int main()
 
 	exo3();
 
-	exo4();
+
+	exo5();
 
     return 0;
 }
